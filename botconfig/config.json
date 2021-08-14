@@ -5,9 +5,9 @@
     "clientsettings": {
     "nodes": [
       {
-          "host": "lava.link",
-         "port": 80,
-         "password": "anything as a password"
+          "host": "n6.danbot.host",
+         "port": 1118,
+         "password": "youshallnotpass"
       
          }
      
