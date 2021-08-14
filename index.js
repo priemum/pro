@@ -12,7 +12,7 @@ const Discord = require('discord.js'); //this is the official discord.js wrapper
 const colors = require('colors'); //this Package is used, to change the colors of our Console! (optional and doesnt effect performance)
 const Enmap = require('enmap'); //this package is our Database! We will use it to save the data for ever!
 const fs = require('fs'); //this package is for reading files and getting their inputs
-
+const TOKEN = process.env.DISCORD_TOKEN;
 //Creating the Discord.js Client for This Bot with some default settings ;) and with partials, so you can fetch OLD messages
 const client = new Discord.Client({
 	fetchAllMembers: false,
@@ -60,7 +60,7 @@ client.userProfiles = new Enmap({
 });
 
 //login into the bot
-client.login(require('./botconfig/config.json').token);
+client.login(TOKEN);
 /**
  * @INFO
  * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/discord-js-lavalink-Music-Bot-erela-js
