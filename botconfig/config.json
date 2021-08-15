@@ -5,9 +5,9 @@
     "clientsettings": {
     "nodes": [
       {
-          "host": "lava.link",
-         "port": 80,
-         "password": "anything as a password"
+          "host": "ult4.falix.gg",
+         "port": 27434,
+         "password": "youshallnotpass"
          }
      
      ]
