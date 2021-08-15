@@ -5,8 +5,8 @@
     "clientsettings": {
     "nodes": [
       {
-          "host": "n6.danbot.host",
-         "port": 1118,
+          "host": "n16.danbot.host",
+         "port": 1258,
          "password": "youshallnotpass"
       
          }
