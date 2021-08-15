@@ -110,8 +110,6 @@ ${userperms == true ? `\n⚙️ **==>** To see the **Setting** Commands
 
 **Note ==>** **IF YOU WANT THE BOT TO STAY 24/7 USE JOIN COMMAND AND THEN LEAVE THE VC THE BOT WILL STAY 24/7**
 
-**CURRENTLY FILTERS ARE DISABLED**
-
 `)
           .setImage("https://cdn.discordapp.com/attachments/752738873129304084/841313692498788402/standard.gif")
 
