@@ -4,18 +4,18 @@
 
     "clientsettings": {
     "nodes": [
-{
-          "host": "ult8.falix.gg:19351",
+      {
+         "host": "ult8.falix.gg:19351",
          "port": 19351,
          "password": "youshallnotpass"
          },
-{
-          "host": "ult10.falix.gg",
+      {
+         "host": "ult10.falix.gg",
          "port": 25977,
          "password": "youshallnotpass"
          },
       {
-          "host": "ult4.falix.gg",
+         "host": "ult4.falix.gg",
          "port": 27434,
          "password": "youshallnotpass"
          }
