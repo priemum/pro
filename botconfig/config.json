@@ -5,9 +5,9 @@
     "clientsettings": {
     "nodes": [
       {
-         "host": "001.finland.eu.hosts.dynamichost.xyz",
-         "port": 23670,
-         "password": "youshallnotpass"
+         "host": "lava.link",
+         "port": 80,
+         "password": "anything as a password"
          }
      
      ]
