@@ -24,7 +24,7 @@
 {
     id: "Main",
     host: "fi2.flarenodes.net",
-    port: ,7301
+    port: 7301,
     pass: "youshallnotpass"
   },
      
