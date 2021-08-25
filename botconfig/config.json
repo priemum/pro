@@ -10,22 +10,22 @@
          "password": "youshallnotpass"
          },
       {
-    id: "Main",
-    host: "fi3.flarenodes.net",
-    port: 8623,
-    pass: "youshallnotpass"
+    "id": "Main",
+    "host": "fi3.flarenodes.net",
+    "port": 8623,
+    "pass": "youshallnotpass"
   },
 {
-    id: "Main",
-    host: "de3.flarenodes.net",
-    port: 9592,
-    pass: "youshallnotpass"
+    "id:" "Main",
+    "host": "de3.flarenodes.net",
+    "port": 9592,
+    "pass": "youshallnotpass"
   },
 {
-    id: "Main",
-    host: "fi2.flarenodes.net",
-    port: 7301,
-    pass: "youshallnotpass"
+    "id": "Main",
+    "host": "fi2.flarenodes.net",
+    "port": 7301,
+    "pass": "youshallnotpass"
   }
      
      ]
