@@ -8,21 +8,6 @@
          "host": "5.196.239.155",
          "port": 2333,
          "password": "youshallnotpass"
-         },
-      {
-         "host": "fi3.flarenodes.net",
-         "port": 8623,
-         "password": "youshallnotpass"
-         },
-      {
-         "host": "de3.flarenodes.net",
-         "port": 9592,
-         "password": "youshallnotpass"
-         },
-      {
-         "host": "fi2.flarenodes.net",
-         "port": 7301,
-         "password": "youshallnotpass"
          }
      
      ]
