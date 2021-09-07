@@ -34,7 +34,7 @@
   },
 
   "lyricssettings": {
-    "lyrics_finder": true,         "COMMENT": "my suggestion is to use ksoft_api on true and paste in the api key u can sign up, until u get the key use lyrics_finder which is way weaker but better the nothing",
+    "lyrics_finder": false,         "COMMENT": "my suggestion is to use ksoft_api on true and paste in the api key u can sign up, until u get the key use lyrics_finder which is way weaker but better the nothing",
     "ksoft_api": {
       "use_this_instead": true,
       "api_key": "AIzaSyAAg3GHxipuyDz7KsCAv434yoFT56TR9LQ"
