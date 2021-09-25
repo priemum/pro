@@ -1,6 +1,6 @@
 {
   "token": "ODEyNjI3Mjc2MzY1NTYxODY3.YDDgIA.GvNzWE_pNQ_w2dwXU7OZwux3tQI",
-  "prefix": "p.",
+  "prefix": "p!",
 
     "clientsettings": {
     "nodes": [
@@ -46,7 +46,7 @@
 
 
   "status": {
-    "text": "p.help | ATHARV PATHAK",
+    "text": "p!help | ATHARV PATHAK",
     "type": "PLAYING", "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
     "url": "https://twitch.tv/milratodiscordbot"
   }
