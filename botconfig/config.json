@@ -7,7 +7,8 @@
       {
          "host": "https://zbb52499e-z8f67df6b-gtw.qovery.io",
          "port": 2333,
-         "password": "youshallnotpass"
+         "password": "youshallnotpass",
+         "secure": "true"
          }
      
      ]
