@@ -5,7 +5,7 @@
     "clientsettings": {
     "nodes": [
       {
-         "host": "zbb52499e-z192e39c8-gtw.qovery.io",
+         "host": "bb52499e-z192e39c8-gtw.qovery.io",
          "port": 2333,
          "password": "youshallnotpass"
          }
