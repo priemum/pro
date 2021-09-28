@@ -56,7 +56,7 @@ module.exports = {
         .addField("⚙️ SERVER Commands used:", `>>> \`${guild.commands} Commands\` used in\n**this** Server`, true)
         .addField("🎵 SERVER Songs played:", `>>> \`${guild.songs} Songs\` played in\n**this** Server`, true)
         .addField("📰 GLOBAL Premium list:", `>>> \`${guilds.length} Guilds\`\n\`${users.length} Users\`\n having Premium`, false)
-        .setImage("https://media.discordapp.net/attachments/752738873129304084/841313692498788402/standard.gif")
+        .setImage("https://media.discordapp.net/attachments/752899379513262280/892404802292686878/standard_-_2021-09-28T190643.051.gif")
         .setTitle(`💿 The Stats of ${client.user.username}`)
       );
     } catch (e) {
