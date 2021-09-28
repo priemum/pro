@@ -5,10 +5,10 @@
     "clientsettings": {
     "nodes": [
       {
-         "identifier": "NODE-MAIN-1",
-         "host": "zfbbb071e-z06932577-gtw.qovery.io",
+         "identifier": "NODE-MAIN",
+         "host": "lostpriceycarriers.atharv111.repl.co",
          "port": 443,
-         "password": "promusic",
+         "password": "youshallnotpass",
          "secure": true
 
          }
