@@ -538,13 +538,13 @@ async function edit_request_message_track_info(client, player, track, type) {
       let embed2 = new MessageEmbed()
         .setColor(ee.color)
         .setFooter(`Prefix for this Server is:   ${client.settings.get(track_info_msg.guild.id, "prefix")}`, ee.footericon)
-        .setTitle("Pro Music | Music Queue")
-        .setImage("https://media.discordapp.net/attachments/752738873129304084/841313692498788402/standard.gif")
+        .setTitle("Pro Music 2 | Music Queue")
+        .setImage("https://media.discordapp.net/attachments/752899379513262280/892404802292686878/standard_-_2021-09-28T190643.051.gif")
         .setDescription(`Empty\nJoin a voice channel and queue songs by name or url in here.`)
       let embed3 = new MessageEmbed()
         .setColor(ee.color)
         .setFooter(ee.footertext, ee.footericon)
-        .setTitle("Pro Music | Currently no song is playing!")
+        .setTitle("Pro Music 2 | Currently no song is playing!")
         .setDescription(`> Join a voice channel and enter a song name or url to play.`)
         .setImage("https://media.discordapp.net/attachments/871726323465355295/871738167991087114/980184fe0897895825bb2e751d8007f7.gif")
       track_info_msg.edit(embed3).catch(e => console.log("Couldn't delete msg, this is for preventing a bug".gray));
@@ -588,7 +588,7 @@ async function edit_request_message_track_info(client, player, track, type) {
       if(!player) return reset(track_info_msg, queue_info_msg);
       const queue = player.queue;
       if(!queue) return reset(track_info_msg, queue_info_msg);
-      const embed = new MessageEmbed().setAuthor(`Pro Music | Music Queue`);
+      const embed = new MessageEmbed().setAuthor(`Pro Music 2 | Music Queue`);
       const multiple = 15;
       const page = 1;
       const end = page * multiple;
@@ -598,7 +598,7 @@ async function edit_request_message_track_info(client, player, track, type) {
       if (!tracks.length) embed.setDescription(`No tracks in ${page > 1 ? `page ${page}` : "the queue"}.`);
       else embed.setDescription(tracks.map((track, i) => `**${start + ++i})** ${track.title.split("[").join("\[").split("]").join("\]").substr(0, 60)} [${track.isStream ? "LIVE STREAM" : format(track.duration).split(" | ")[0]}]\nby: ${track.requester}`).join("\n"));
    embed.setColor(ee.color);
-      embed.setImage("https://media.discordapp.net/attachments/752738873129304084/841313692498788402/standard.gif");
+      embed.setImage("https://media.discordapp.net/attachments/752899379513262280/892404802292686878/standard_-_2021-09-28T190643.051.gif");
       embed.setFooter(ee.footertext, ee.footericon);
       return embed;
     }
@@ -621,7 +621,7 @@ async function edit_request_message_track_info(client, player, track, type) {
 async function edit_request_message_queue_info(client, player) {
   try {
     const queue = player.queue;
-    const embed = new MessageEmbed().setAuthor(`Pro Music | Music Queue`);
+    const embed = new MessageEmbed().setAuthor(`Pro Music 2 | Music Queue`);
     const multiple = 15;
     const page = 1;
     const end = page * multiple;
@@ -631,7 +631,7 @@ async function edit_request_message_queue_info(client, player) {
     if (!tracks.length) embed.setDescription(`No tracks in ${page > 1 ? `page ${page}` : "the queue"}.`);
     else embed.setDescription(tracks.map((track, i) => `**${start + ++i})** ${track.title.split("[").join("\[").split("]").join("\]").substr(0, 60)} [${track.isStream ? "LIVE STREAM" : format(track.duration).split(" | ")[0]}]\nby: ${track.requester}`).join("\n"));
     embed.setColor(ee.color);
-    embed.setImage("https://media.discordapp.net/attachments/752738873129304084/841313692498788402/standard.gif");
+    embed.setImage("https://media.discordapp.net/attachments/752899379513262280/892404802292686878/standard_-_2021-09-28T190643.051.gif");
     embed.setFooter(ee.footertext, ee.footericon);
     embed;
     let message = player.get("message");
