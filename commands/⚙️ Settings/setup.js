@@ -39,7 +39,7 @@ module.exports = {
         } catch {}
       }
       //create a new Cateogry
-      message.guild.channels.create("Pro Music - Requests", {
+      message.guild.channels.create("Pro Music 2 - Requests", {
           type: 'category',
           permissionOverwrites: [{
             id: message.guild.id,
@@ -57,7 +57,7 @@ module.exports = {
             if (boosts >= 15) maxbitrate = 256000;
             if (boosts >= 30) maxbitrate = 384000;
 
-            message.guild.channels.create(`🎧｜PRO MUSIC`, {
+            message.guild.channels.create(`🎧｜PRO MUSIC 2`, {
                 type: 'voice', //voice Channel
                 bitrate: maxbitrate, //set the bitrate to the maximum possible
                 userLimit: 10, //set the limit for voice users
@@ -69,10 +69,10 @@ module.exports = {
               })
               .then((channel2) => {
                 try {
-                  message.guild.channels.create(`🎵｜PRO MUSIC REQUESTS`, {
+                  message.guild.channels.create(`🎵｜PRO MUSIC 2 REQUESTS`, {
                       type: 'text', // text channel
                       rateLimitPerUser: 6, //set chat delay
-                      topic: `To request a Track, simply Type the **SONG NAME** into the Channel or the **URL** and the Bot will play it! Make sure that you are in the **right** Voice Channel (🎧｜PRO MUSIC)!`,
+                      topic: `To request a Track, simply Type the **SONG NAME** into the Channel or the **URL** and the Bot will play it! Make sure that you are in the **right** Voice Channel (🎧｜PRO MUSIC 2)!`,
                       parent: channel1.id,
                       permissionOverwrites: [{
                           id: message.guild.id,
@@ -89,7 +89,7 @@ module.exports = {
                       let embed1 = new MessageEmbed()
                         .setColor(ee.color)
                         .setFooter(ee.footertext, ee.footericon)
-                        .setTitle("Pro Music | Request | Guide")
+                        .setTitle("Pro Music 2 | Request | Guide")
                         .setDescription(`Enter the song name or URL to play a song\n\nYou can also type \`${prefix}command <Parameters>\``)
                         .addField(`Commands`, musiccmds.join(", "))
                         .addField(`Reactions`, `${emoji.msg.rewind} Rewind 20 seconds\n${emoji.msg.forward} Forward 20 seconds\n${emoji.msg.pause_resume} Pause/Resume\n${emoji.msg.stop} Stop Track\n${emoji.msg.previous_track} Play previous\n`, true)
@@ -98,12 +98,12 @@ module.exports = {
                       let embed2 = new MessageEmbed()
                         .setColor(ee.color)
                         .setFooter(ee.footertext, ee.footericon)
-                        .setTitle("Pro Music | Music Queue")
+                        .setTitle("Pro Music 2 | Music Queue")
                         .setDescription(`Empty\nJoin a voice channel and queue songs by name or url in here.`)
                       let embed3 = new MessageEmbed()
                         .setColor(ee.color)
                         .setFooter(ee.footertext, ee.footericon)
-                        .setTitle("Pro Music | Currently no song is playing!")
+                        .setTitle("Pro Music 2 | Currently no song is playing!")
                         .setDescription(`Join a voice channel and enter a song name or url to play.`)
                         .setImage("https://media.discordapp.net/attachments/871726323465355295/871738167991087114/980184fe0897895825bb2e751d8007f7.gif")
                       //send a temp message
