@@ -8,9 +8,7 @@
          "identifier": "NODE-MAIN",
          "host": "connect.freelavalink.ga",
          "port": 26026,
-         "password": "freelavalink",
-         "secure": true
-
+         "password": "freelavalink"
          }
      
      ]
