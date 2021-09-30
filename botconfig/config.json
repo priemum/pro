@@ -6,9 +6,9 @@
     "nodes": [
       {
          "identifier": "NODE-MAIN",
-         "host": "lostpriceycarriers.atharv111.repl.co",
-         "port": 443,
-         "password": "youshallnotpass",
+         "host": "connect.freelavalink.ga",
+         "port": 26026,
+         "password": "freelavalink",
          "secure": true
 
          }
